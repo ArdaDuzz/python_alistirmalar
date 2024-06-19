@@ -1,6 +1,31 @@
+PROBLEM 1
+
 sayı_1 = float(input("Bir sayı giriniz(örnk:19): "))
 sayı_2 = float(input("Bir sayı daha giriniz : "))
 sayı_3 = float(input("Son bir sayı daha giriniz : "))
 
 en_buyuk = max(sayı_1,sayı_2,sayı_3)
 print("Yazdığınız en büyük sayı: {}".format(en_buyuk))
+
+PROBLEM 2
+
+kenar_1 = float(input("Birinci kenarı giriniz: "))
+kenar_2 = float(input("İkinci kenarı giriniz: "))
+kenar_3 = float(input("Üçüncü kenarı giriniz: "))
+
+if kenar_1 + kenar_2 > kenar_3 and kenar_2 + kenar_3 > kenar_1 and kenar_1 + kenar_3 > kenar_2:
+    print("Seçtiğiniz kenar uzunluklarıyla üçgen çizilebilir.")
+else:
+    print("Seçtiğiniz kenar uzunluklarıyla üçgen çizilemez.")
+
+PROBLEM 3 
+
+acı_1 = float(input("Birinci açıyı giriniz: "))
+acı_2 = float(input("İkinci açıyı giriniz: "))
+acı_3 = float(input("Üçüncü açıyı giriniz: "))
+
+if acı_1 + acı_2 + acı_3 == 180:
+    print("Seçtiğiniz açılarla üçgen çizilebilir")
+
+else:
+    print("Seçtiğiniz açılarla üçgen çizilemez")
