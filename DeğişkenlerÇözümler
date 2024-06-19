@@ -1,0 +1,25 @@
+PROBLEM 1
+
+
+tarih = int(input("Doğum yılı tarihinizi giriniz:  "))
+hesap = 2019 - tarih
+print("2019 yılı baz alınarak {} yaşındasınız".format(hesap))
+
+
+PROBLEM 2
+
+
+kelime_sorgu = str(input("Bir kelime giriniz: "))
+tekrar_sorgu = int(input("Kelimenin kaç kere tekrar edeceğini giriniz: "))
+sonuc = kelime_sorgu * tekrar_sorgu
+print(sonuc)
+
+
+PROBLEM 3
+
+
+kelime = str(input("Bir kelime giriniz: "))
+dogum = str(input("Doğum tarihinizi giriniz: "))
+son_iki_hane = str(dogum[-2:])
+sifre = kelime + son_iki_hane
+print(sifre) 
