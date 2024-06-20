@@ -1,0 +1,79 @@
+PROBLEM 1 -----------------------------------------------------------
+
+import random
+
+while True:
+     secim = str(input("Taş, kağıt veya makas seçiniz: "))
+     if secim.lower() in ["taş","kağıt","makas"]:
+         print("Siz {} seçtiniz".format(secim))
+         break
+     else:
+         print(str(input("Taş, kağıt veya makas seçiniz: "))) 
+   
+    
+secim2 = random.randint(1,4)
+
+if secim2 == 1:
+    secim2 = "taş"
+    print("Bilgisayar {} seçti".format(secim2))
+
+elif secim2 == 2:
+    secim2 = "kağıt"
+    print("Bilgisayar {} seçti".format(secim2))
+    
+else:
+    secim2 = "makas"
+    print("Bilgisayar {} seçti".format(secim2))
+
+    
+
+     
+     
+if secim == secim2:  
+    print("Berabere")
+elif secim == "makas" and secim2 == "kağıt":
+    print("Siz kazandınız")
+elif secim == "kağıt" and secim2 == "taş":
+    print("Siz kazandınız")
+elif secim == "taş" and secim2 == "makas":
+    print("Siz kazandınız")
+else:
+    print("Bilgisayar kazandı")
+
+
+PROBLEM 2 -------------------------------------------
+
+girdi = int(input("Sayı giriniz (örnk:19): "))
+toplam = 0
+for i in range(1,girdi+1):
+    toplam += i
+print(toplam)
+
+
+PROBLEM 3 -------------------------------------------
+
+girdi = int(input("Sayı giriniz (örnk:19): "))
+toplam = 1
+for i in range(1,girdi+1):
+    toplam *= i
+print(toplam)
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
