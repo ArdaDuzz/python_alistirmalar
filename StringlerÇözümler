@@ -1,0 +1,7 @@
+PROBLEM 1 -----------------------------------------------
+
+soru = str(input("Kelime giriniz: "))
+if soru == soru.lower():
+    print("girilen kelimeler küçük harflerden oluşur")
+else:
+    print("kelimede büyük harfler vardır")
