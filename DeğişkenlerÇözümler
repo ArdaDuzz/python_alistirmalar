@@ -1,4 +1,4 @@
-PROBLEM 1
+PROBLEM 1 -------------------------------------------------------
 
 
 tarih = int(input("Doğum yılı tarihinizi giriniz:  "))
@@ -6,7 +6,7 @@ hesap = 2019 - tarih
 print("2019 yılı baz alınarak {} yaşındasınız".format(hesap))
 
 
-PROBLEM 2
+PROBLEM 2 --------------------------------------------------------
 
 
 kelime_sorgu = str(input("Bir kelime giriniz: "))
@@ -15,7 +15,7 @@ sonuc = kelime_sorgu * tekrar_sorgu
 print(sonuc)
 
 
-PROBLEM 3
+PROBLEM 3 ---------------------------------------------------------
 
 
 kelime = str(input("Bir kelime giriniz: "))
